@@ -27,7 +27,6 @@ export default class Contador extends Component{
                 <button onClick={() => this.alterarNumero(10)}>Incrementar 10</button>
                 <button onClick={() => this.alterarNumero(-10)}>Decrementar 10</button> 
             </div>
-            <div></div>
         )
     }
 }
